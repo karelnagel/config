@@ -25,6 +25,8 @@ brew install --cask logi-options+
 brew install --cask visual-studio-code
 
 # vscode settings.json
+# Download vscode settings
+curl -o ~/Library/Application\ Support/Code/User/settings.json https://raw.githubusercontent.com/karelnagel/config/refs/heads/main/settings.json
 
 
 # vscode extensions
