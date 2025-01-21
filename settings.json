@@ -1,6 +1,6 @@
 {
   "editor.fontSize": 13,
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "material-icon-theme",
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -58,7 +58,7 @@
     "editor.defaultFormatter": "JuanBlanco.solidity"
   },
   "github.copilot.enable": {
-    "*": true,
+    "*": false,
     "plaintext": true,
     "markdown": true,
     "scminput": false,
@@ -175,5 +175,29 @@
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.acceptSuggestionOnEnter": "smart",
   "yaml.format.proseWrap": "never",
-  "workbench.activityBar.location": "top"
+  "workbench.activityBar.location": "top",
+  "remote.SSH.defaultExtensions": [
+    "astro-build.astro-vscode",
+    "bradlc.vscode-tailwindcss",
+    "dbaeumer.vscode-eslint",
+    "denoland.vscode-deno",
+    "esbenp.prettier-vscode",
+    "github.copilot",
+    "github.copilot-chat",
+    "mechatroner.rainbow-csv",
+    "mhutchie.git-graph",
+    "mquandalle.graphql",
+    "ms-python.black-formatter",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-ssh-edit",
+    "ms-vscode.hexeditor",
+    "prisma.prisma",
+    "rangav.vscode-thunder-client",
+    "redhat.vscode-xml",
+    "redhat.vscode-yaml",
+    "unifiedjs.vscode-mdx",
+    "zh9528.file-size"
+  ],
 }
