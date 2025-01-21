@@ -44,18 +44,27 @@ curl -fsSL https://deno.land/install.sh | sh
 # karabiner
 brew install --cask karabiner-elements
 
-# karabiner settings
 # Download karabiner config
 curl -o ~/.config/karabiner/karabiner.json https://raw.githubusercontent.com/karelnagel/config/refs/heads/main/karabiner.json
 
 
 
 # new ssh key
-ssh-keygen -t rsa -b 4096 -N "" -f ~/.ssh/id_rsa
+ssh-keygen
 cat ~/.ssh/id_rsa.pub
 
 # cloudflared 
 brew install cloudflared
+add host + then add remote ssh:localhost:22
+then you can connect with
+
+Host user.domain.com
+  User user
+  ProxyCommand cloudflared access ssh --hostname %h
+
+
+# enable ssh access
+sudo systemsetup -setremotelogin on
 
 
 # UI settings
@@ -120,3 +129,6 @@ sudo nvram StartupMute=%01
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
 defaults write com.apple.AppleMultitouchTrackpad TrackpadRightClick -bool true
 defaults write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
+
+# install alt tab
+brew install --cask alt-tab
