@@ -115,3 +115,8 @@ killall Dock
 # Disable Mac startup sound
 sudo nvram SystemAudioVolume=" "
 sudo nvram StartupMute=%01
+
+# Enable secondary click (right-click) with two fingers
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
+defaults write com.apple.AppleMultitouchTrackpad TrackpadRightClick -bool true
+defaults write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
