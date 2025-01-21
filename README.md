@@ -1,3 +1,7 @@
+# command line tools + git
+git 
+then popup asks to install the tools
+
 # brew 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -41,4 +45,6 @@ brew install --cask karabiner-elements
 ssh-keygen -t rsa -b 4096 -N "" -f ~/.ssh/id_rsa
 cat ~/.ssh/id_rsa.pub
 
-# put into github
+# cursor speed 
+# alt tab
+# 
