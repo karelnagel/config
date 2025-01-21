@@ -102,8 +102,8 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 # Disable press-and-hold for keys in favor of key repeat
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
-defaults write -g InitialKeyRepeat -int 12
-defaults write -g KeyRepeat -int 1.2
+defaults write -g InitialKeyRepeat -int 13
+defaults write -g KeyRepeat -int 1.4
 
 # Keep only essential dock items (Brave, VS Code, Terminal)
 defaults write com.apple.dock persistent-apps -array \
