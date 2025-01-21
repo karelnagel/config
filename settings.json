@@ -1,0 +1,178 @@
+{
+  "editor.fontSize": 13,
+  "workbench.iconTheme": "vscode-icons",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "git.enableSmartCommit": true,
+  "files.autoSave": "afterDelay",
+  "editor.suggestSelection": "first",
+  "explorer.confirmDelete": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[aspnetcorerazor]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "editor.lineDecorationsWidth": 0,
+  "html.format.wrapAttributes": "force",
+  "html.format.wrapLineLength": 0,
+  "explorer.confirmDragAndDrop": false,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "python.languageServer": "Default",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "extensions.ignoreRecommendations": true,
+  "editor.definitionLinkOpensInPeek": true,
+  "git.confirmSync": false,
+  "terminal.integrated.tabs.enabled": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook",
+    "*.cap": "hexEditor.hexedit"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "js": "js"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "[solidity]": {
+    "editor.defaultFormatter": "JuanBlanco.solidity"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
+    "yaml": true
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "tsx"
+  },
+  "prettier.printWidth": 150,
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "jupyter.widgetScriptSources": ["jsdelivr.com", "unpkg.com"],
+  "workbench.editorLargeFileConfirmation": 6000,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "files.exclude": {
+    "just_the_last_one_so_i_dont_have_to_add_comma_when_copying_thank_you": true
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.largeFileOptimizations": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.ignoreRebaseWarning": true,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "window.commandCenter": false,
+  "debug.onTaskErrors": "debugAnyway",
+  "notebook.stickyScroll.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "terminal.integrated.stickyScroll.enabled": false,
+  "window.zoomLevel": -2,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cursor.cpp.disabledLanguages": ["scminput", "markdown"],
+  "workbench.colorTheme": "Default Dark Modern",
+  "playwright.reuseBrowser": true,
+  "hexeditor.columnWidth": 16,
+  "hexeditor.showDecodedText": true,
+  "hexeditor.defaultEndianness": "little",
+  "hexeditor.inspectorType": "aside",
+  "editor.stickyScroll.scrollWithEditor": false,
+  "workbench.tree.enableStickyScroll": false,
+  "remote.autoForwardPortsSource": "hybrid",
+  "sqltools.useNodeRuntime": true,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "jupyter.askForKernelRestart": false,
+  "typescript.tsserver.log": "off",
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "Cargo.toml": "Cargo.lock",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  "sqliteViewer.maxFileSize": 2000,
+  "files.saveConflictResolution": "overwriteFileOnDisk",
+  "terminal.integrated.automationProfile.linux": {},
+  "terminal.integrated.environmentChangesRelaunch": false,
+  "go.toolsManagement.autoUpdate": true,
+  "terminal.integrated.inheritEnv": false,
+  "python.envFile": "",
+  "python.terminal.activateEnvironment": false,
+  "terminal.integrated.env.osx": {
+    "EMBEDDINGS_MODEL": null
+  },
+  "[snippets]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tailwindCSS.files.exclude": [
+    "**/.git/**",
+    "**/node_modules/**",
+    "**/.hg/**",
+    "**/.svn/**",
+    "**/*.ts"
+  ],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.promptForLocalFileProtocolHandling": false,
+  "python.createEnvironment.trigger": "off",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.scrollback": 10000,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.acceptSuggestionOnEnter": "smart",
+  "yaml.format.proseWrap": "never"
+}
