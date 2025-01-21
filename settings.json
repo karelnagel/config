@@ -174,5 +174,6 @@
   "terminal.integrated.scrollback": 10000,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.acceptSuggestionOnEnter": "smart",
-  "yaml.format.proseWrap": "never"
+  "yaml.format.proseWrap": "never",
+  "workbench.activityBar.location": "top"
 }
